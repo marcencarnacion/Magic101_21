@@ -1,12 +1,17 @@
 public class MagicDriver
 {
+    //Enum used for the golem
+    enum element {fire, water, earth, air}
     public static void main(String[]args)
     {
+    Golem.elementList();
+
+
         //Creating comments from the classes
         Goblin kyle = new Goblin(true, "Brown",5, "aggressive");
         Goblin gerome = new Goblin(false, "Green", 0, "calm");
         Dragon pablo = new Dragon(true, "Red", 20, 2);
-        Golem marcos = new Golem(false, "Gray", "fire", 20);
+        Golem marcos = new Golem(false, "Gray", "earth", 20);
 
         //Utilizing the getters and setters of the Goblin class
         System.out.print("(Using Getters and Setters)");
