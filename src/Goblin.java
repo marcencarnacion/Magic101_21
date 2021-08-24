@@ -3,6 +3,7 @@ public class Goblin extends Enemies
     //Instance Variables
     private int numClaws;
     private String personality;
+    public static int numGoblins;
 
     //Constructor
     public Goblin (boolean hasClaws, String color, int numClaws, String personality)
@@ -10,6 +11,7 @@ public class Goblin extends Enemies
         super(hasClaws, color);
         this.numClaws = numClaws;
         this.personality = personality;
+        numGoblins++;
     }
     public Goblin (boolean hasClaws, String color, int numClaws)
     {

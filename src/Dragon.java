@@ -41,7 +41,7 @@ public class Dragon extends Enemies
     //toString
     public String toString()
     {
-        String output = "\nThis dragon has " + numWings + " wings. Wing length (feet): " + wingLength;
+        String output = "\nThis Dragon has " + numWings + " wings. Wing length (feet): " + wingLength;
         output += "\n" + super.toString();
         return output;
     }
