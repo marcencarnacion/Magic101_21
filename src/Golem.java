@@ -5,6 +5,7 @@ public class Golem extends Enemies
     private String elementType;
     private int height;
     private element List;
+    public static int numGolems;
 
     //Constructors
     public Golem (boolean hasClaws, String color, String elementType, int height)
@@ -12,6 +13,7 @@ public class Golem extends Enemies
         super(hasClaws, color);
         this.elementType = elementType;
         this.height = height;
+        numGolems++;
     }
     public Golem (boolean hasClaws, String color)
     {
@@ -45,6 +47,10 @@ public class Golem extends Enemies
         {
             System.out.println(List);
         }
+    }
+    public static void golemAmount()
+    {
+        System.out.println("In total, there are " + numGolems + " golems.");
     }
     //toString
     public String toString()

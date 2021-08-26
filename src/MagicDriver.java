@@ -16,6 +16,7 @@ public class MagicDriver
         Golem oscar = new Golem(false, "Black", "fire", 30);
         Sorcerer ruben = new Sorcerer(80, 95, "magic wand");
         Sorcerer jose = new Sorcerer(90, 85, "sword");
+
         //Utilizing the getters and setters of the Goblin class
         System.out.print("(Using Getters and Setters)");
         System.out.println(kyle.toString());
@@ -38,8 +39,14 @@ public class MagicDriver
         }
         System.out.println(ruben.toString());
         ruben.attack();
-
         System.out.println(jose.toString());
         jose.gainIntelligence();
+
+        //Static counts with appropriate labels
+        System.out.println();
+        Goblin.goblinAmount();
+        Dragon.dragonAmount();
+        Golem.golemAmount();
+        Sorcerer.sorcererAmount();
     }
 }//end driver

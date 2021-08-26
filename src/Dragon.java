@@ -3,6 +3,7 @@ public class Dragon extends Enemies
     //Instance Variables
     private int wingLength;
     private int numWings;
+    public static int numDragons;
 
     //Constructors
     public Dragon (boolean hasClaws, String color, int wingLength, int numWings)
@@ -10,6 +11,7 @@ public class Dragon extends Enemies
         super(hasClaws, color);
         this.wingLength = wingLength;
         this.numWings = numWings;
+        numDragons++;
     }
     public Dragon(boolean hasClaws, String color, int wingLength)
     {
@@ -37,7 +39,10 @@ public class Dragon extends Enemies
     }
 
     //Brain Methods
-
+    public static void dragonAmount()
+    {
+        System.out.println("In total, there are " + numDragons + " dragons.");
+    }
     //toString
     public String toString()
     {

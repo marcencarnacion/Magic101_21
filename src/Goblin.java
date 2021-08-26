@@ -43,7 +43,10 @@ public class Goblin extends Enemies
     }
 
     //Brain Methods
-
+    public static void goblinAmount()
+    {
+        System.out.println("In total, there are " + numGoblins + " goblins.");
+    }
     //toString
     public String toString()
     {
