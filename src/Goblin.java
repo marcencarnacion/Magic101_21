@@ -47,6 +47,18 @@ public class Goblin extends Enemies
     {
         System.out.println("In total, there are " + numGoblins + " goblins.");
     }
+    public void isGoblin()
+    {
+        if (numClaws < 2)
+        {
+            System.out.println("Because this goblin has less than 2 claws, this is not a real goblin.");
+        }
+        else
+        {
+            System.out.println("Because this goblin has the correct number of claws, this is a real goblin.");
+        }
+    }
+
     //toString
     public String toString()
     {

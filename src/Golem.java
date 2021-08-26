@@ -52,6 +52,16 @@ public class Golem extends Enemies
     {
         System.out.println("In total, there are " + numGolems + " golems.");
     }
+
+    public void isGolem()
+    {
+        if (height < 30)
+        {
+            System.out.println("Because this golem is less than 30 meters, this is not a real golem");
+        }
+        else
+            System.out.println("Because this golem is the correct height, this is a real golem");
+    }
     //toString
     public String toString()
     {

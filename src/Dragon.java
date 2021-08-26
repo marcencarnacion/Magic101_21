@@ -43,10 +43,19 @@ public class Dragon extends Enemies
     {
         System.out.println("In total, there are " + numDragons + " dragons.");
     }
+    public void isDragon()
+    {
+        if (numWings < 2)
+        {
+            System.out.println("Because this dragon has less than 2 wings, this is not a real dragon.");
+        }
+        else
+            System.out.println("Because this dragon has the correct number of wings, this is a real dragon.");
+    }
     //toString
     public String toString()
     {
-        String output = "\nThis Dragon has " + numWings + " wings. Wing length (feet): " + wingLength;
+        String output = "\nThis Dragon has " + numWings + " wing(s). Wing length (feet): " + wingLength;
         output += "\n" + super.toString();
         return output;
     }
