@@ -1,6 +1,7 @@
-enum element {fire, water, earth, air}
 public class Golem extends Enemies
 {
+    //enum used for the Golem class
+    enum element {fire, water, earth, air}
     //Instance Variables
     private String elementType;
     private int height;
@@ -43,7 +44,7 @@ public class Golem extends Enemies
     //Brain Method
     public static void elementList()
     {
-        for(MagicDriver.element List: MagicDriver.element.values())
+        for(Golem.element List: Golem.element.values())
         {
             System.out.println(List);
         }

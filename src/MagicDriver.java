@@ -1,11 +1,7 @@
 public class MagicDriver
 {
-    //Enum used for the golem
-    enum element {fire, water, earth, air}
     public static void main(String[]args)
     {
-    Golem.elementList();
-
         //Creating objects from the classes
         Goblin kyle = new Goblin(true, "Brown",5, "aggressive");
         Goblin gerome = new Goblin(false, "Green", 0, "calm");
@@ -40,6 +36,10 @@ public class MagicDriver
         {
             System.out.println(myEnemies[i]);
         }
+
+        //This utilizes the enum from the Golem class
+        System.out.println("There are 4 elements a golem can be: ");
+        Golem.elementList();
 
         //These are the calls for the sorcerers
         //Calling toString and the brain methods attack and gainIntelligence
