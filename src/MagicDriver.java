@@ -38,7 +38,7 @@ public class MagicDriver
         }
 
         //This utilizes the enum from the Golem class
-        System.out.println("There are 4 elements a golem can be: ");
+        System.out.println("\nThere are 4 elements a golem can be: ");
         Golem.elementList();
 
         //These are the calls for the sorcerers

@@ -41,7 +41,7 @@ public class Golem extends Enemies
         this.height = height;
     }
 
-    //Brain Method
+    //Brain Methods
     public static void elementList()
     {
         for(Golem.element List: Golem.element.values())
