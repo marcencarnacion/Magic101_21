@@ -5,6 +5,6 @@ Class Name: Advanced Java Topics
 
 Date: September 10, 2021
 
-Description of Assignment: Magic101 was a refresher project over JavaScript that included an enemy, dragon, golem, goblin, and sorcerer class
+Description of Assignment: Magic101 was a refresher project over Java that included an enemy, dragon, golem, goblin, and sorcerer class
 
 Partners: No partners
